@@ -14,9 +14,10 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(path2.png)no-repeat;
-    background-size: cover;
-    background-position:center;
+    background: url(path2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 }
 
 header {
