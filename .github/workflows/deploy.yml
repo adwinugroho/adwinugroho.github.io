@@ -18,7 +18,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "pnpm"
 
       - name: Install pnpm
         run: npm install -g pnpm
@@ -27,10 +26,9 @@ jobs:
         run: pnpm install
 
       - name: Build project
-        run: pnpm run build
-
-      - name: Disable Jekyll
-        run: echo "" > ./dist/.nojekyll
+        run: |
+          pnpm build
+          touch dist/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
