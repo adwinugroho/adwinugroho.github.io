@@ -1,7 +1,7 @@
 CNAME
 # build output
 dist/
-
+!.nojekyll
 # generated types
 .astro/
 
