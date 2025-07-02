@@ -1,4 +1,4 @@
-name: pages-build-deployment
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -6,6 +6,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -26,17 +28,14 @@ jobs:
         run: pnpm install
 
       - name: Build project
-        run: pnpm build
-
-      - name: Copy CNAME
-        run: cp CNAME dist/
-
-      - name: Disable Jekyll
-        run: touch dist/.nojekyll
+        run: |
+          pnpm build
+          touch dist/.nojekyll
+          cp CNAME dist/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          publish_branch: gh-pages # ✅ Make this explicit
+          publish_branch: gh-pages
