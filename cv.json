@@ -4,7 +4,7 @@
     "label": "Software Engineer",
     "image": "/me.png",
     "email": "adwinnsiswoyo@gmail.com",
-    "phone": "+628",
+    "phone": "+62",
     "url": "https://cryppy.xyz",
     "summary": "Software Engineer with 4+ years of experience, focused on developing scalable microservices with Go (Golang). Passionate about solving real-life problems, researching, and staying updated with new technologies. Dedicated to improving system architecture, performance optimization, and distributed systems.",
     "location": {
@@ -342,7 +342,7 @@
     {
       "name": "Go Collection",
       "isActive": true,
-      "description": "A list of awesome Go that I created for helping in work, like a, generate a random string, count ages, calculate the date, reverse the array, generate CSV, implement 3rd party package like Redis, and many more. It will be always updated!",
+      "description": "A list of awesome Go that I created for helping in work, like a, generate a random string, count ages, calculate the date, reverse the array, generate CSV, implement 3rd party package like Redis, and many more.",
       "highlights": [
         "Go Language",
         "Library"
