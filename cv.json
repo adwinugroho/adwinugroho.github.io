@@ -5,8 +5,8 @@
     "image": "/me.png",
     "email": "adwinnsiswoyo@gmail.com",
     "phone": "+62",
-    "url": "https://cryppy.xyz",
-    "summary": "Software Engineer with 4+ years of experience, focused on developing scalable microservices with Go (Golang). Passionate about solving real-life problems, researching, and staying updated with new technologies. Dedicated to improving system architecture, performance optimization, and distributed systems.",
+    "url": "https://cryppy.id",
+    "summary": "Software Engineer with 5+ years of experience, focused on developing scalable microservices with Go (Golang). Passionate about solving real-life problems, researching, and staying updated with new technologies. Dedicated to improving system architecture, performance optimization, and distributed systems.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -34,19 +34,35 @@
   },
   "work": [
     {
+      "name": "PT Indocyber Global Teknologi (IGLO) at BRI",
+      "position": "Backend Engineer (Go)",
+      "url": "https://www.indocyber.co.id/",
+      "startDate": "2026-03-30",
+      "endDate": null,
+      "summary": "Developing backend microservices for Bank BRI's Universal Biller System (UBS), a centralized biller management platform integrated with BRImo and the Payment Engine middleware. Focused on service development, database design, workflow orchestration, and asynchronous inter-service communication.",
+      "highlights": [
+        "Developed Partner Service to manage partner-related data and integrations within the Universal Biller System.",
+        "Developed Product Service to manage biller product data and support product-related operations.",
+        "Designed the database schema for the workflow submission process, applying loose coupling principles to separate submission management from core business services.",
+        "Implemented Kafka consumers to support asynchronous communication and integration between backend services and external systems.",
+        "Contributed to a microservices architecture using Go, PostgreSQL, Kafka, Redis, and GORM."
+      ]
+    },
+    {
       "name": "PT Guardia Teknologi Indonesia (Jubelio)",
       "position": "Backend Engineer (Go)",
       "url": "https://jubelio.com",
-      "startDate": "2024-02-01",
-      "endDate": null,
-      "summary": "Responsible for developing core backend services for Jubelio Store and Jubelio Chat platforms. Focus on performance, integration, and real-time communication.",
+      "startDate": "2024-02-23",
+      "endDate": "2026-03-25",
+      "summary": "Developed backend services for Jubelio Store and Jubelio Chat, focusing on API performance, marketplace integrations, asynchronous processing, and real-time communication.",
       "highlights": [
-        "Optimized Jubelio Store Order Service to respond in under 2 seconds.",
-        "Built Cart Service with Redis caching for improved performance.",
-        "Developed asynchronous order consumers and real-time notification systems via WhatsApp & email.",
-        "Generated bulk shipping labels using HTML to PDF rendering (wkhtmltopdf).",
-        "Integrated Chat API with Sentiment AI and marketplace chats (Shopee, Lazada, TikTok Shop, etc.).",
-        "Built product & order sending features, and integrated Supabase for real-time messaging."
+        "Optimized Jubelio Store Order Service to achieve response times of under 2 seconds.",
+        "Integrated Jubelio Chat with Sentiment AI and multiple marketplace messaging platforms, including Shopee, Lazada, and TikTok Shop.",
+        "Developed product and order synchronization features and integrated Supabase for real-time messaging.",
+        "Implemented marketplace-specific pagination, time-based message retrieval, and retry-with-delay handling for HTTP 429 responses to improve synchronization reliability.",
+        "Validated synchronization across 3 tenants with multiple marketplace stores per tenant, completing tests in under 15 minutes.",
+        "Developed Cart Service with Redis caching to improve performance and implemented asynchronous order consumers and notification systems via WhatsApp and email.",
+        "Automated bulk shipping label generation by converting HTML templates to PDF using wkhtmltopdf."
       ]
     },
     {
@@ -54,13 +70,13 @@
       "position": "Backend Developer",
       "startDate": "2020-01-01",
       "endDate": "2023-12-31",
-      "summary": "Working on backend systems in the financial and healthcare sectors with a focus on transactions, authentication, and API-based internal systems.",
+      "summary": "Developed backend systems for financial services and healthcare applications, focusing on transaction processing, authentication, API integrations, and internal business systems.",
       "highlights": [
         "Developed Transaction Service for BCA Syariah Klik Bisnis.",
-        "Built CIF processor & API for Bank Danamon Syariah.",
-        "Integrated Keycloak & Kong for secure authentication service.",
-        "Led backend services for Carevo including booking, payments, and internal systems.",
-        "Migrated backend services from Node.js to Go for performance gains."
+        "Built CIF processing services and APIs for Bank Danamon Syariah.",
+        "Integrated Keycloak and Kong to support authentication and API security.",
+        "Developed backend services for Carevo, covering booking, payment processing, and internal business operations.",
+        "Migrated backend services from Node.js to Go to improve performance and support more efficient service development."
       ]
     }
   ],
