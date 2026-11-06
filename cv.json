@@ -250,7 +250,7 @@
     {
       "name": "Si Subur",
       "isActive": false,
-      "description": "Interactive web to monitoring the menstrual cycle and women’s fertility",
+      "description": "Si Subur is an IoT-based fertility monitoring system that uses basal body temperature (BBT) to track menstrual cycles and estimate fertility periods. The system combines an ESP8266 microcontroller and an infrared temperature sensor with a web application for real-time temperature monitoring. Developed as a college project, Si Subur aims to make fertility tracking more accessible through technology.",
       "highlights": ["Monitoring", "Integrated IoT"],
       "url": "#",
       "github": "https://github.com/adwinugroho/si-subur"
@@ -267,14 +267,14 @@
       "name": "Wedding Invitation",
       "isActive": true,
       "description": "Interactive wedding invitation",
-      "highlights": ["Web Invitation", "Frontend"],
+      "highlights": ["Web Invitation", "Fullstack"],
       "url": "https://zahra-adwin.cryppy.id"
     },
     {
-      "name": "Wedding Planner",
+      "name": "Portable Patient Monitoring System (PPMS)",
       "isActive": true,
-      "description": "Modern wedding planning platform built with Go, React, and Tailwind CSS, designed to help couples plan their perfect wedding day stress-free. Manage your entire wedding journey from budget and vendors to checklists, RSVPs, and timelines — all in one elegant place",
-      "highlights": ["On Progress", "Wedding Planner", "Budget Planner"],
+      "description": "Portable Patient Monitoring System, a.k.a PPMS, was my lecturer’s project funded by IEEE. It was a collaborative agreement between Institut Teknologi Sepuluh Nopember (ITS) and Hospital University of Muhammadiyah Malang (RS UMM).",
+      "highlights": ["Python Django", "Raspberry", "Integrated IoT"],
       "url": "#",
       "github": "#"
     }
@@ -283,14 +283,14 @@
     "url": "https://blog.cryppy.id",
     "article": [
       {
-        "url": "https://blog.cryppy.id/article/the-story-about-si-subur/",
-        "date": "2024-09-01",
-        "summary": "A Story About Si Subur - This is a system called “Si Subur.” What does Si Subur mean? In Indonesia, “subur” means fertile, lush, or productive (synonyms include gemuk, gendut, etc.). The “fertility” I want to talk about in this article refers to human fertility."
+        "url": "https://blog.cryppy.id/article/what-i-learned-psql-search-path-a-small-setting-that-can-break-your-multischema-database/",
+        "date": "2026-10-03",
+        "summary": "As Backend Engineers, we often look for the simplest and easiest way to manage our databases. We frequently use ORMs or third-party libraries to interact with our database, and that's fine. That's totally fine. But it becomes a nightmare when we don't truly understand what happens behind the ..."
       },
       {
         "url": "https://blog.cryppy.id/article/what-i-learned-redis-keyspace-notification/",
         "date": "2022-10-22",
-        "summary": "What I Learned - Redis Keyspace Notification. First of all apa itu redis keyspace notification? sederhanya, ini adalah sebuah publish-subscribe pada redis dimana ketika terjadi sebuah perubahan data pada redis, maka akan terdapat notif."
+        "summary": "Redis Keyspace Notification. First of all apa itu redis keyspace notification? sederhanya, ini adalah sebuah publish-subscribe pada redis dimana ketika terjadi sebuah perubahan data pada redis, maka akan terdapat notif."
       }
     ]
   },
