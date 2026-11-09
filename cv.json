@@ -271,12 +271,19 @@
       "url": "https://zahra-adwin.cryppy.id"
     },
     {
+      "name": "KaltimEtam",
+      "isActive": true,
+      "description": "Digital media platform serving East Kalimantan with a focus on scalable content delivery and cross-platform integration. Built to support high-traffic local news coverage across categories like economy, health, and tourism, while maintaining seamless connectivity with social media ecosystems for broader reach.",
+      "highlights": ["Web CMS", "Fullstack", "Wordpress"],
+      "url": "https://kaltimetam.id"
+    },
+    {
       "name": "Portable Patient Monitoring System (PPMS)",
       "isActive": true,
       "description": "Portable Patient Monitoring System, a.k.a PPMS, was my lecturer’s project funded by IEEE. It was a collaborative agreement between Institut Teknologi Sepuluh Nopember (ITS) and Hospital University of Muhammadiyah Malang (RS UMM).",
       "highlights": ["Python Django", "Raspberry", "Integrated IoT"],
       "url": "#",
-      "github": "#"
+      "github": "https://github.com/adwinugroho/django_ppms"
     }
   ],
   "blog": {
