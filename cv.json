@@ -251,38 +251,36 @@
       "name": "Si Subur",
       "isActive": false,
       "description": "Si Subur is an IoT-based fertility monitoring system that uses basal body temperature (BBT) to track menstrual cycles and estimate fertility periods. The system combines an ESP8266 microcontroller and an infrared temperature sensor with a web application for real-time temperature monitoring. Developed as a college project, Si Subur aims to make fertility tracking more accessible through technology.",
-      "highlights": ["Monitoring", "Integrated IoT"],
-      "url": "#",
-      "github": "https://github.com/adwinugroho/si-subur"
+      "highlights": ["Monitoring", "Integrated IoT", "Fullstack", "PHP"],
+      "url": "https://blog.cryppy.id/article/the-story-about-si-subur-an-iot-journey-into-fertility-tracking/"
     },
     {
       "name": "Chat Marketplace Playground",
       "isActive": true,
       "description": "Webhook Transform is a lightweight, developer-friendly tool designed to simplify webhook testing and payload transformation for e-commerce integrations. Built for engineers working with multi-platform marketplaces, it bridges the gap between disparate webhook formats and your backend systems",
-      "highlights": ["Go Language", "Library"],
-      "url": "https://webhook-transform.cryppy.id/",
-      "github": "#"
+      "highlights": ["Library", "Fullstack", "Go Language"],
+      "url": "https://webhook-transform.cryppy.id/"
     },
     {
       "name": "Wedding Invitation",
       "isActive": true,
-      "description": "Interactive wedding invitation",
-      "highlights": ["Web Invitation", "Fullstack"],
+      "description": "My Interactive Wedding Invitation",
+      "highlights": ["Web Invitation", "Fullstack", "Go Language", "React"],
       "url": "https://zahra-adwin.cryppy.id"
     },
     {
       "name": "KaltimEtam",
       "isActive": true,
       "description": "Digital media platform serving East Kalimantan with a focus on scalable content delivery and cross-platform integration. Built to support high-traffic local news coverage across categories like economy, health, and tourism, while maintaining seamless connectivity with social media ecosystems for broader reach.",
-      "highlights": ["Web CMS", "Fullstack", "Wordpress"],
+      "highlights": ["Wordpress", "Web CMS", "Fullstack"],
       "url": "https://kaltimetam.id"
     },
     {
       "name": "Portable Patient Monitoring System (PPMS)",
       "isActive": true,
       "description": "Portable Patient Monitoring System, a.k.a PPMS, was my lecturer’s project funded by IEEE. It was a collaborative agreement between Institut Teknologi Sepuluh Nopember (ITS) and Hospital University of Muhammadiyah Malang (RS UMM).",
-      "highlights": ["Python Django", "Raspberry", "Integrated IoT"],
-      "url": "#",
+      "highlights": ["Monitoring","Integrated IoT","Fullstack", "Raspberry", "Python Django"],
+      "url": "https://blog.cryppy.id/article/the-story-about-ppms-a-portable-patient-monitoring-system-that-could-help-save-lives/",
       "github": "https://github.com/adwinugroho/django_ppms"
     }
   ],
@@ -295,9 +293,9 @@
         "summary": "As Backend Engineers, we often look for the simplest and easiest way to manage our databases. We frequently use ORMs or third-party libraries to interact with our database, and that's fine. That's totally fine. But it becomes a nightmare when we don't truly understand what happens behind the ..."
       },
       {
-        "url": "https://blog.cryppy.id/article/what-i-learned-redis-keyspace-notification/",
-        "date": "2022-10-22",
-        "summary": "Redis Keyspace Notification. First of all apa itu redis keyspace notification? sederhanya, ini adalah sebuah publish-subscribe pada redis dimana ketika terjadi sebuah perubahan data pada redis, maka akan terdapat notif."
+        "url": "https://blog.cryppy.id/article/the-story-about-si-subur-an-iot-journey-into-fertility-tracking/",
+        "date": "2024-09-09",
+        "summary": "Observing bodily changes during the menstrual cycle provides critical clues about fertility status. One of the most effective and accessible methods for tracking this is monitoring Basal Body Temperature (BBT). Biologically, the fertile window is often marked by a slight dip in temperature followed ..."
       }
     ]
   },
