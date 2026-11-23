@@ -248,6 +248,13 @@
   ],
   "projects": [
     {
+      "name": "Kaltimetam.id Revamp",
+      "isActive": true,
+      "description": "Digital media platform serving East Kalimantan with a focus on scalable content delivery and cross-platform integration. Built to support high-traffic local news coverage across categories. Revamp to fully customize with API (Go) and dashboard with React NextJS.",
+      "highlights": ["Web CMS", "Fullstack", "Go Language", "React"],
+      "url": "https://app.kaltimetam.id"
+    },
+    {
       "name": "Si Subur",
       "isActive": false,
       "description": "Si Subur is an IoT-based fertility monitoring system that uses basal body temperature (BBT) to track menstrual cycles and estimate fertility periods. The system combines an ESP8266 microcontroller and an infrared temperature sensor with a web application for real-time temperature monitoring. Developed as a college project, Si Subur aims to make fertility tracking more accessible through technology.",
@@ -269,7 +276,7 @@
       "url": "https://zahra-adwin.cryppy.id"
     },
     {
-      "name": "KaltimEtam",
+      "name": "Kaltimetam.id",
       "isActive": true,
       "description": "Digital media platform serving East Kalimantan with a focus on scalable content delivery and cross-platform integration. Built to support high-traffic local news coverage across categories like economy, health, and tourism, while maintaining seamless connectivity with social media ecosystems for broader reach.",
       "highlights": ["Wordpress", "Web CMS", "Fullstack"],
